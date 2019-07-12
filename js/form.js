@@ -88,7 +88,7 @@ function montaTdComIcone(classe){
 
 function criaIconeDelete(){
     var img = document.createElement("img");
-    img.src = '/img/delete.svg';
+    img.src = 'img/delete.svg';
     document.getElementById("img-excluir").appendChild(img);
     return img;
 }
